@@ -38,6 +38,8 @@ jobs:
         name: Install pnpm
         with:
           version: 8
+      - name: Install
+        run: pnpm install
       - name: Build
         run: pnpm run build
       - name: Setup Pages
